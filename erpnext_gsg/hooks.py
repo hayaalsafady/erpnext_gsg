@@ -103,6 +103,15 @@ app_license = "S"
 #	}
 # }
 
+
+doc_events = {
+	"Journal Entry": {
+		"validate": "erpnext_gsg.erpnext_gsg.docs.py.employee_event.py.Journal_Entry",
+
+	}
+  }
+
+
 # Scheduled Tasks
 # ---------------
 
